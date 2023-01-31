@@ -39,9 +39,7 @@ def next_music():
     mixer.music.play()
 
     listbox.delete(0, END)
-
     show()
-
     listbox.select_set(new_index)
     running_song['text'] = playing
 
