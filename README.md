@@ -12,7 +12,6 @@ window = Tk()
 window.title ("")
 window.geometry('352x255')
 window.configure(background=co1)
-window.resizable(width=FALSE, height=FALSE)
 
 #events
 def play_music():
